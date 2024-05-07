@@ -71,7 +71,7 @@ from plotly.subplots import make_subplots
 &nbsp; &nbsp; &nbsp; &nbsp;Создаем датафрейм из csv файла с данными об оттоке клиентов и отображаем первые 30 строк таблицы:
 
 ```
-churn_table = pd.read_csv('C:\IDE2\SF_DS\PY\Bank clients\churn.csv')
+churn_table = pd.read_csv('C:\github\sf_ds\churn_project\churn.csv')
 churn_table.head(30)
 ```
 &nbsp; &nbsp; &nbsp; &nbsp;Выводим сводную информацию о DataFrame:
